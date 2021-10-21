@@ -1,0 +1,50 @@
+*{ 
+    box-sizing: border-box;
+    background:pink;
+}
+
+.columns{
+           float:left;
+            width: 33.3%;
+            padding: 8px;
+}
+.price { list-style-type: none;
+        border:2px solid black;
+        margin:0;
+        padding:0;
+        -webkit-transition:0.5s;
+        transition: 0.3s;
+}
+.price:hover{ box-shadow: 10px 8px 12px 10px blue}
+
+.price.header{ 
+    background-color:yellow;
+color:white;
+font-size: 25px;
+}
+
+.price li{ border-bottom: 3px solid black;
+           padding:20px;
+           text-align: center;}
+           
+.price.wheat{ background-color: grey;
+font-size: 20px;
+font-weight:500}
+
+.button{ background-color: wheat;
+            border:none;
+            color:black;
+            padding:10px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius:8px;
+}
+
+
+@media only screen and(max-width:600px){
+    .columns{
+        width:100%;
+        
+    }
+}

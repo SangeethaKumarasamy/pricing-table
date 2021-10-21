@@ -20,7 +20,7 @@
 }
 
 .price:hover {
-  box-shadow: 0 8px 15px 0 rgb(255, 0, 119);
+  box-shadow: 0 8px 15px 0 yellow;
 }
 
 .price .header {
